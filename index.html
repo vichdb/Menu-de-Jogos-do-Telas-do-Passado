@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jogos Telas do Passado</title>
+<meta name="description" content="Jogos grátis no navegador, direto no celular ou computador. Telas do Passado.">
+<meta name="theme-color" content="#0d0b14">
+<style>
+:root{--bg:#0d0b14;--card:#181424;--line:#2c2540;--text:#f1edf8;--muted:#a59cb8;--accent:#ff3d8b;--accent2:#29e3ff;--warn:#ffb020}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(900px 400px at 50% -100px,#2a1747 0,transparent 70%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.45;min-height:100vh}
+header{text-align:center;padding:48px 16px 20px}
+.kicker{letter-spacing:.3em;font-size:.75rem;color:var(--accent2);text-transform:uppercase}
+h1{margin:.3em 0 .2em;font-size:clamp(1.9rem,6vw,3rem);background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{color:var(--muted);margin:0}
+.badge{display:inline-block;margin-top:12px;padding:4px 12px;border:1px solid var(--line);border-radius:99px;font-size:.8rem;color:var(--muted)}
+main{max-width:1000px;margin:0 auto;padding:16px 16px 24px;display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+a.card{display:flex;flex-direction:column;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;color:inherit;text-decoration:none;transition:transform .15s,border-color .15s,box-shadow .15s}
+a.card:hover,a.card:focus-visible{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 8px 24px rgba(255,61,139,.15);outline:none}
+.emoji{font-size:2.2rem}
+.card h2{margin:0;font-size:1.2rem}
+.card p{margin:0;color:var(--muted);font-size:.92rem}
+.tag{margin-top:auto;padding-top:8px;font-size:.75rem;color:var(--accent2)}
+.play{margin-top:6px;font-weight:700;color:var(--accent);font-size:.9rem}
+.card.off{opacity:.6;cursor:not-allowed}
+.soonbtn{color:var(--muted)!important;border:1px solid var(--line);border-radius:99px;padding:2px 12px;align-self:flex-start}
+.adult{border-color:#5a4318}
+.warn{margin-top:8px;padding:8px 10px;border-radius:10px;background:rgba(255,176,32,.1);border:1px solid rgba(255,176,32,.4);color:var(--warn);font-size:.8rem}
+.warn strong{display:inline-block;background:var(--warn);color:#1a1200;border-radius:6px;padding:0 6px;margin-right:6px}
+.soon{max-width:1000px;margin:8px auto 0;padding:0 16px}
+.soon div{border:2px dashed var(--line);border-radius:16px;padding:20px;text-align:center;color:var(--muted)}
+.soon b{color:var(--text);display:block;font-size:1.05rem;margin-bottom:4px}
+footer{text-align:center;color:var(--muted);font-size:.8rem;padding:28px 16px 32px}
+@media (prefers-reduced-motion:reduce){a.card{transition:none}}
+</style>
+</head>
+<body>
+<header>
+  <div class="kicker">Telas do Passado apresenta</div>
+  <h1>Fliperama de Jogos</h1>
+  <p>Escolha um jogo e jogue agora, direto no navegador.</p>
+  <span class="badge">100% grátis · Sem instalar nada</span>
+</header>
+<main>
+  <a class="card" href="https://vichdb.github.io/Buraco-Telas-do-Passado/"><span class="emoji">🃏</span><h2>Buraco</h2><p>Canastra clássica contra a IA, 1×1 ou 2×2, com partida online com um amigo.</p><span class="tag">Cartas · PT/EN/ES</span><span class="play">Jogar ▸</span></a>
+  <a class="card" href="https://vichdb.github.io/Corrida-Cyber--Telas-do-Passado/"><span class="emoji">🏃</span><h2>Cyber Runner</h2><p>Corrida infinita em cidade neon: 100 fases, 10 chefes e ranking global.</p><span class="tag">Ação · Ranking global</span><span class="play">Jogar ▸</span></a>
+  <a class="card" href="https://vichdb.github.io/Jogod-da-Memoria-do-Telas-do-Passado-/"><span class="emoji">🧠</span><h2>Jogo da Memória</h2><p>Solo, 2 jogadores, contra o relógio ou desafio do dia, com temas de cartas.</p><span class="tag">Memória</span><span class="play">Jogar ▸</span></a>
+  <a class="card" href="https://vichdb.github.io/Palavras-Cruzadas-Telas-do-Passado/"><span class="emoji">✏️</span><h2>Palavras Cruzadas</h2><p>Vários temas, três níveis, desafio do dia, selos e estatísticas.</p><span class="tag">Palavras</span><span class="play">Jogar ▸</span></a>
+  <a class="card" href="https://vichdb.github.io/Sensible-World/"><span class="emoji">⚽</span><h2>Sensible Word</h2><p>Gerente de futebol com partidas 2D, elenco, mercado, ligas e copas.</p><span class="tag">Esporte · Estratégia</span><span class="play">Jogar ▸</span></a>
+  <!-- QUANDO O REPOSITORIO EXISTIR: troque este bloco por
+  <a class="card" href="COLE-O-ENDERECO-AQUI">...mesmo conteudo...<span class="play">Jogar ▸</span></a>
+  (e apague a classe "off" e o atributo aria-disabled) -->
+  <div class="card off" aria-disabled="true"><span class="emoji">🐍</span><h2>Snake Neon</h2><p>Cobrinha arcade com 40 fases, portais, frutas bônus e desafio do dia.</p><span class="tag">Arcade · Desafio do dia</span><span class="play soonbtn">Em breve</span></div>
+  <a class="card" href="https://vichdb.github.io/Sudoku-Neon-e-Cyberpunk/"><span class="emoji">🔢</span><h2>Sudoku</h2><p>Visual Cyberpunk ou Punk Rock, quatro níveis, dicas, partida salva e ranking global.</p><span class="tag">Lógica · Ranking global</span><span class="play">Jogar ▸</span></a>
+  <!-- QUANDO O REPOSITORIO EXISTIR: troque este bloco por
+  <a class="card" href="COLE-O-ENDERECO-AQUI">...mesmo conteudo...<span class="play">Jogar ▸</span></a>
+  (e apague a classe "off" e o atributo aria-disabled) -->
+  <div class="card off" aria-disabled="true"><span class="emoji">⚔️</span><h2>Crônicas de Midgard</h2><p>RPG 3D de ação com 100 andares, chefes, classes, cartas e montaria. Joga no celular.</p><span class="tag">RPG · Aventura</span><span class="play soonbtn">Em breve</span></div>
+  <a class="card adult" href="https://vichdb.github.io/Ca-a-Niqueis-do-Telas-do-Passado/"><span class="emoji">🎰</span><h2>Sloto-Verse Deluxe</h2><p>Caça-níquel de cinema com várias máquinas, missões e roda do Olimpo.</p><span class="tag">Cassino virtual</span><div class="warn"><strong>+18</strong>Somente fichas virtuais. Não há dinheiro real, nem prêmios.</div><span class="play">Jogar ▸</span></a>
+</main>
+<section class="soon">
+  <div><b>⭐ Em breve: jogos Pro</b>Novidades vêm por aqui. Fique de olho.</div>
+</section>
+<footer>© Telas do Passado</footer>
+</body>
+</html>
